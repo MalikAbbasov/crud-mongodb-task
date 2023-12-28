@@ -15,8 +15,8 @@ const userSchema = new Schema({
   Email: String,
   Password: { type: String, required: true },
   Age: Number,
-  isMarried: Boolean,
-});
+  isMarried: Boolean, 
+}); 
 
 const userModel = mongoose.model("myusers", userSchema);
 
